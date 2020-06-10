@@ -19,6 +19,7 @@ adicionar a pasta /env/
 
 ### 7-) 4 Arquivos importantes
 - runtime.txt: é utilizado para saber qual a versão do python
+
 ex: python-3.6.8
 
 - requirements.txt: mostra as bibliotecas que o sevidor precisa instalar
@@ -28,6 +29,7 @@ pip3.6 freeze > requirements.txt
 - Procfile: Executa o comando no servidor
 
 ex: web: python nome.py
+
 ex: web: gunicorn nome:app (Flask)
 
 - Pipfile: é uma espécie de nova versão do requirements.txt... não é necessário utilizar quando usar o requirements.txt
@@ -36,7 +38,9 @@ dica: crie apenas o <strong>Procfile</strong> e <strong>requirements.txt</strong
 
 ### 8-) Faça o git commit de tudo para o github
 git add.
+
 git commit -m "xxxx"
+
 git push
 
 ### 9-) Criar um app no Heroku
