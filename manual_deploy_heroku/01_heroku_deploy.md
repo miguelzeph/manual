@@ -70,6 +70,7 @@ heroku maintenance:on --app NOME
 
 ### Sair do modo de manuntenção
 heroku maintenance:off --app NOME
+
 -------------------------------------
 
 
